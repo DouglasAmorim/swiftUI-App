@@ -14,6 +14,7 @@
 		E8011E392A93A67700DD9B5F /* MySwiftUIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8011E382A93A67700DD9B5F /* MySwiftUIAppTests.swift */; };
 		E8011E432A93A67700DD9B5F /* MySwiftUIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8011E422A93A67700DD9B5F /* MySwiftUIAppUITests.swift */; };
 		E8011E452A93A67700DD9B5F /* MySwiftUIAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8011E442A93A67700DD9B5F /* MySwiftUIAppUITestsLaunchTests.swift */; };
+		E82C40892AA0D32400C0638E /* AsyncImageTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C40882AA0D32400C0638E /* AsyncImageTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		E8011E3E2A93A67700DD9B5F /* MySwiftUIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySwiftUIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8011E422A93A67700DD9B5F /* MySwiftUIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIAppUITests.swift; sourceTree = "<group>"; };
 		E8011E442A93A67700DD9B5F /* MySwiftUIAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E82C40882AA0D32400C0638E /* AsyncImageTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				E8011E292A93A67600DD9B5F /* ContentView.swift */,
 				E8011E2B2A93A67600DD9B5F /* Assets.xcassets */,
 				E8011E2D2A93A67600DD9B5F /* Preview Content */,
+				E82C40882AA0D32400C0638E /* AsyncImageTestView.swift */,
 			);
 			path = MySwiftUIApp;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8011E2A2A93A67600DD9B5F /* ContentView.swift in Sources */,
+				E82C40892AA0D32400C0638E /* AsyncImageTestView.swift in Sources */,
 				E8011E282A93A67600DD9B5F /* MySwiftUIAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
