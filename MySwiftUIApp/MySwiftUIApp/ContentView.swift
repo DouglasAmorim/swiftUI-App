@@ -25,9 +25,7 @@ extension Image {
 struct ContentView: View {
     
     var body: some View {
-        Image("image-1")
-            .resizable()
-            .scaledToFit()
+        CardView()
         
         // MARK: Basic Async image
 //        AsyncImage(url: URL(string: imageUrl))
