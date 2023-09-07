@@ -14,20 +14,55 @@ struct CardView: View {
         ZStack {
             CustomBackgroundView()
             
-            ZStack {
-                Circle()
-                    .fill(
-                        LinearGradient(
-                            colors: [Color.customIndigoMedium, Color.customSalmonLight],
-                            startPoint: .topLeading,
-                            endPoint: .bottomTrailing
+            VStack {
+                // MARK: - Header
+                VStack(alignment: .leading) {
+                    HStack {
+                        Text("Hiking")
+                            .fontWeight(.black)
+                            .font(.system(size: 52))
+                            .foregroundStyle(
+                                LinearGradient(
+                                    colors: [.customGrayLight, .customGrayMedium],
+                                    startPoint: .top,
+                                    endPoint: .bottom)
                         )
-                    )
-                    .frame(width: 256, height: 256)
+                        
+                        Spacer()
+                        
+                        Button {
+                            // Action SHOW A sheet
+                            print("The Button was pressed")
+                        } label: {
+                            CustomButtonView()
+                        }
+                    }
+                    
+                    Text("Fun and enjoyable outdoor activities for friends and families.")
+                        .multilineTextAlignment(.leading)
+                        .italic()
+                        .foregroundColor(.customGrayMedium)
+                } // : HEADER
+                .padding(.horizontal, 24)
                 
-                Image("image-1")
-                    .resizable()
-                    .scaledToFit()
+                // MARK: - Main Content
+                ZStack {
+                    Circle()
+                        .fill(
+                            LinearGradient(
+                                colors: [Color.customIndigoMedium, Color.customSalmonLight],
+                                startPoint: .topLeading,
+                                endPoint: .bottomTrailing
+                            )
+                        )
+                        .frame(width: 256, height: 256)
+                    
+                    Image("image-1")
+                        .resizable()
+                        .scaledToFit()
+                    
+                    // MARK: - FOOTER
+                }
             }
         } // CARD
         .frame(width: 320, height: 570)
