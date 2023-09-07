@@ -14,6 +14,9 @@
 		E8011E392A93A67700DD9B5F /* MySwiftUIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8011E382A93A67700DD9B5F /* MySwiftUIAppTests.swift */; };
 		E8011E432A93A67700DD9B5F /* MySwiftUIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8011E422A93A67700DD9B5F /* MySwiftUIAppUITests.swift */; };
 		E8011E452A93A67700DD9B5F /* MySwiftUIAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8011E442A93A67700DD9B5F /* MySwiftUIAppUITestsLaunchTests.swift */; };
+		E80DEC8A2AAA17BE00B40016 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DEC892AAA17BE00B40016 /* AsyncImageView.swift */; };
+		E80DEC8C2AAA185200B40016 /* HikeMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DEC8B2AAA185200B40016 /* HikeMainView.swift */; };
+		E80DEC8E2AAA189500B40016 /* ImageExtencion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DEC8D2AAA189500B40016 /* ImageExtencion.swift */; };
 		E82C40892AA0D32400C0638E /* AsyncImageTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C40882AA0D32400C0638E /* AsyncImageTestView.swift */; };
 		E8B2A91D2AA7638E00BCF5C6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2A91C2AA7638E00BCF5C6 /* CardView.swift */; };
 		E8B2A9202AA764D600BCF5C6 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2A91F2AA764D600BCF5C6 /* CustomBackgroundView.swift */; };
@@ -48,6 +51,9 @@
 		E8011E3E2A93A67700DD9B5F /* MySwiftUIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySwiftUIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8011E422A93A67700DD9B5F /* MySwiftUIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIAppUITests.swift; sourceTree = "<group>"; };
 		E8011E442A93A67700DD9B5F /* MySwiftUIAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E80DEC892AAA17BE00B40016 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		E80DEC8B2AAA185200B40016 /* HikeMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeMainView.swift; sourceTree = "<group>"; };
+		E80DEC8D2AAA189500B40016 /* ImageExtencion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtencion.swift; sourceTree = "<group>"; };
 		E82C40882AA0D32400C0638E /* AsyncImageTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageTestView.swift; sourceTree = "<group>"; };
 		E8B2A91C2AA7638E00BCF5C6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E8B2A91F2AA764D600BCF5C6 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
@@ -102,11 +108,11 @@
 		E8011E262A93A67600DD9B5F /* MySwiftUIApp */ = {
 			isa = PBXGroup;
 			children = (
+				E80DEC882AAA17A700B40016 /* Scenes */,
 				E8011E272A93A67600DD9B5F /* MySwiftUIAppApp.swift */,
 				E8011E292A93A67600DD9B5F /* ContentView.swift */,
 				E8011E2B2A93A67600DD9B5F /* Assets.xcassets */,
 				E8011E2D2A93A67600DD9B5F /* Preview Content */,
-				E82C40882AA0D32400C0638E /* AsyncImageTestView.swift */,
 				E8B2A9212AA766A200BCF5C6 /* Utility */,
 				E8B2A91E2AA764AD00BCF5C6 /* Component */,
 			);
@@ -138,9 +144,19 @@
 			path = MySwiftUIAppUITests;
 			sourceTree = "<group>";
 		};
+		E80DEC882AAA17A700B40016 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E80DEC892AAA17BE00B40016 /* AsyncImageView.swift */,
+				E80DEC8B2AAA185200B40016 /* HikeMainView.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		E8B2A91E2AA764AD00BCF5C6 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				E82C40882AA0D32400C0638E /* AsyncImageTestView.swift */,
 				E8B2A91C2AA7638E00BCF5C6 /* CardView.swift */,
 				E8B2A91F2AA764D600BCF5C6 /* CustomBackgroundView.swift */,
 			);
@@ -151,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				E8B2A9222AA766B300BCF5C6 /* ColorExtension.swift */,
+				E80DEC8D2AAA189500B40016 /* ImageExtencion.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -285,12 +302,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E80DEC8E2AAA189500B40016 /* ImageExtencion.swift in Sources */,
 				E8B2A9202AA764D600BCF5C6 /* CustomBackgroundView.swift in Sources */,
 				E8011E2A2A93A67600DD9B5F /* ContentView.swift in Sources */,
 				E82C40892AA0D32400C0638E /* AsyncImageTestView.swift in Sources */,
 				E8B2A9232AA766B300BCF5C6 /* ColorExtension.swift in Sources */,
 				E8B2A91D2AA7638E00BCF5C6 /* CardView.swift in Sources */,
 				E8011E282A93A67600DD9B5F /* MySwiftUIAppApp.swift in Sources */,
+				E80DEC8C2AAA185200B40016 /* HikeMainView.swift in Sources */,
+				E80DEC8A2AAA17BE00B40016 /* AsyncImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
