@@ -22,6 +22,7 @@
 		E8B2A91D2AA7638E00BCF5C6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2A91C2AA7638E00BCF5C6 /* CardView.swift */; };
 		E8B2A9202AA764D600BCF5C6 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2A91F2AA764D600BCF5C6 /* CustomBackgroundView.swift */; };
 		E8B2A9232AA766B300BCF5C6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2A9222AA766B300BCF5C6 /* ColorExtension.swift */; };
+		E8FCD7342AAA21A50043648A /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FCD7332AAA21A50043648A /* GradientButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		E8B2A91C2AA7638E00BCF5C6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E8B2A91F2AA764D600BCF5C6 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		E8B2A9222AA766B300BCF5C6 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		E8FCD7332AAA21A50043648A /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 			children = (
 				E8B2A9222AA766B300BCF5C6 /* ColorExtension.swift */,
 				E80DEC8D2AAA189500B40016 /* ImageExtencion.swift */,
+				E8FCD7332AAA21A50043648A /* GradientButtonStyle.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				E8B2A9232AA766B300BCF5C6 /* ColorExtension.swift in Sources */,
 				E80DEC902AAA1C2D00B40016 /* CustomButtonView.swift in Sources */,
 				E8B2A91D2AA7638E00BCF5C6 /* CardView.swift in Sources */,
+				E8FCD7342AAA21A50043648A /* GradientButtonStyle.swift in Sources */,
 				E8011E282A93A67600DD9B5F /* MySwiftUIAppApp.swift in Sources */,
 				E80DEC8C2AAA185200B40016 /* HikeMainView.swift in Sources */,
 				E80DEC8A2AAA17BE00B40016 /* AsyncImageView.swift in Sources */,
