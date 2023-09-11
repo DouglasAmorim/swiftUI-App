@@ -19,6 +19,8 @@
 		E80DEC8E2AAA189500B40016 /* ImageExtencion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DEC8D2AAA189500B40016 /* ImageExtencion.swift */; };
 		E80DEC902AAA1C2D00B40016 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DEC8F2AAA1C2D00B40016 /* CustomButtonView.swift */; };
 		E82C40892AA0D32400C0638E /* AsyncImageTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C40882AA0D32400C0638E /* AsyncImageTestView.swift */; };
+		E88EEDA02AAF9CC300A77056 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88EED9F2AAF9CC300A77056 /* CustomCircleView.swift */; };
+		E88EEDA22AAF9E3500A77056 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88EEDA12AAF9E3500A77056 /* MotionAnimationView.swift */; };
 		E8B2A91D2AA7638E00BCF5C6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2A91C2AA7638E00BCF5C6 /* CardView.swift */; };
 		E8B2A9202AA764D600BCF5C6 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2A91F2AA764D600BCF5C6 /* CustomBackgroundView.swift */; };
 		E8B2A9232AA766B300BCF5C6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2A9222AA766B300BCF5C6 /* ColorExtension.swift */; };
@@ -58,6 +60,8 @@
 		E80DEC8D2AAA189500B40016 /* ImageExtencion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtencion.swift; sourceTree = "<group>"; };
 		E80DEC8F2AAA1C2D00B40016 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		E82C40882AA0D32400C0638E /* AsyncImageTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageTestView.swift; sourceTree = "<group>"; };
+		E88EED9F2AAF9CC300A77056 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		E88EEDA12AAF9E3500A77056 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		E8B2A91C2AA7638E00BCF5C6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E8B2A91F2AA764D600BCF5C6 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		E8B2A9222AA766B300BCF5C6 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
@@ -164,6 +168,8 @@
 				E8B2A91C2AA7638E00BCF5C6 /* CardView.swift */,
 				E8B2A91F2AA764D600BCF5C6 /* CustomBackgroundView.swift */,
 				E80DEC8F2AAA1C2D00B40016 /* CustomButtonView.swift */,
+				E88EED9F2AAF9CC300A77056 /* CustomCircleView.swift */,
+				E88EEDA12AAF9E3500A77056 /* MotionAnimationView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -313,10 +319,12 @@
 				E8011E2A2A93A67600DD9B5F /* ContentView.swift in Sources */,
 				E82C40892AA0D32400C0638E /* AsyncImageTestView.swift in Sources */,
 				E8B2A9232AA766B300BCF5C6 /* ColorExtension.swift in Sources */,
+				E88EEDA02AAF9CC300A77056 /* CustomCircleView.swift in Sources */,
 				E80DEC902AAA1C2D00B40016 /* CustomButtonView.swift in Sources */,
 				E8B2A91D2AA7638E00BCF5C6 /* CardView.swift in Sources */,
 				E8FCD7342AAA21A50043648A /* GradientButtonStyle.swift in Sources */,
 				E8011E282A93A67600DD9B5F /* MySwiftUIAppApp.swift in Sources */,
+				E88EEDA22AAF9E3500A77056 /* MotionAnimationView.swift in Sources */,
 				E80DEC8C2AAA185200B40016 /* HikeMainView.swift in Sources */,
 				E80DEC8A2AAA17BE00B40016 /* AsyncImageView.swift in Sources */,
 			);
