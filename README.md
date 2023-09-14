@@ -5,3 +5,7 @@ The main objective of this repository is for learning the SwiftUI framework and 
 ## Subjects studied
 
 - AsyncImages
+- Change app icons at runtime
+- Open sheet view
+- ScrollView
+- Animation
