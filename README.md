@@ -1,5 +1,7 @@
-# My first SwiftUI App
+# This project is for learning SwiftUI
 
-This is my first app in iOS using SwiftUI framework. The main objective of this project is learning the best practices and the architecture used to create views in SwiftUI.
+The main objective of this repository is for learning the SwiftUI framework and its usability
 
-## Description
+## Subjects studied
+
+- AsyncImages
