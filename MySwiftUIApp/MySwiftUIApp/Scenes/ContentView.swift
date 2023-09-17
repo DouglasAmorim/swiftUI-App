@@ -25,6 +25,13 @@ struct ContentView: View {
                         .foregroundColor(.white)
                         .background(Color.customIndigoMedium)
                 }
+                
+                NavigationLink(destination: RestartMainView()) {
+                    Text("Open Restar App")
+                        .padding()
+                        .foregroundColor(.white)
+                        .background(Color.customGreenDark)
+                }
             }
         }
     }

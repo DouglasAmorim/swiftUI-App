@@ -9,3 +9,4 @@ The main objective of this repository is for learning the SwiftUI framework and 
 - Open sheet view
 - ScrollView
 - Animation
+- AppStorage
