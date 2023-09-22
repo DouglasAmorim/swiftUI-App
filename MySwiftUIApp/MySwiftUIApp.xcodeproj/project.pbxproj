@@ -23,6 +23,7 @@
 		E86FB67C2AB2402D00A70B73 /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86FB67B2AB2402D00A70B73 /* CustomListRowView.swift */; };
 		E88EEDA02AAF9CC300A77056 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88EED9F2AAF9CC300A77056 /* CustomCircleView.swift */; };
 		E88EEDA22AAF9E3500A77056 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88EEDA12AAF9E3500A77056 /* MotionAnimationView.swift */; };
+		E89E8B372ABDF821007D6FBD /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89E8B362ABDF821007D6FBD /* CircleGroupView.swift */; };
 		E8B2A91D2AA7638E00BCF5C6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2A91C2AA7638E00BCF5C6 /* CardView.swift */; };
 		E8B2A9202AA764D600BCF5C6 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2A91F2AA764D600BCF5C6 /* CustomBackgroundView.swift */; };
 		E8B2A9232AA766B300BCF5C6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2A9222AA766B300BCF5C6 /* ColorExtension.swift */; };
@@ -71,6 +72,7 @@
 		E86FB67B2AB2402D00A70B73 /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 		E88EED9F2AAF9CC300A77056 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		E88EEDA12AAF9E3500A77056 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		E89E8B362ABDF821007D6FBD /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 		E8B2A91C2AA7638E00BCF5C6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E8B2A91F2AA764D600BCF5C6 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		E8B2A9222AA766B300BCF5C6 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				E88EED9F2AAF9CC300A77056 /* CustomCircleView.swift */,
 				E88EEDA12AAF9E3500A77056 /* MotionAnimationView.swift */,
 				E86FB67B2AB2402D00A70B73 /* CustomListRowView.swift */,
+				E89E8B362ABDF821007D6FBD /* CircleGroupView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				E8B2A9232AA766B300BCF5C6 /* ColorExtension.swift in Sources */,
 				E8EFEE482AB7847800ECD50E /* RestartMainView.swift in Sources */,
 				E88EEDA02AAF9CC300A77056 /* CustomCircleView.swift in Sources */,
+				E89E8B372ABDF821007D6FBD /* CircleGroupView.swift in Sources */,
 				E80DEC902AAA1C2D00B40016 /* CustomButtonView.swift in Sources */,
 				E86FB67C2AB2402D00A70B73 /* CustomListRowView.swift in Sources */,
 				E8EFEE532AB787C200ECD50E /* HomeView.swift in Sources */,
