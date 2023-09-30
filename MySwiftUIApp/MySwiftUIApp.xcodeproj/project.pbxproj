@@ -20,6 +20,7 @@
 		E80DEC902AAA1C2D00B40016 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DEC8F2AAA1C2D00B40016 /* CustomButtonView.swift */; };
 		E8144C262AB0E8A3004AF89C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8144C252AB0E8A3004AF89C /* SettingsView.swift */; };
 		E82C40892AA0D32400C0638E /* AsyncImageTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C40882AA0D32400C0638E /* AsyncImageTestView.swift */; };
+		E858BA612AC5B9B6003CD121 /* exemplo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858BA602AC5B9B6003CD121 /* exemplo.swift */; };
 		E86FB67C2AB2402D00A70B73 /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86FB67B2AB2402D00A70B73 /* CustomListRowView.swift */; };
 		E88EEDA02AAF9CC300A77056 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88EED9F2AAF9CC300A77056 /* CustomCircleView.swift */; };
 		E88EEDA22AAF9E3500A77056 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88EEDA12AAF9E3500A77056 /* MotionAnimationView.swift */; };
@@ -69,6 +70,7 @@
 		E80DEC8F2AAA1C2D00B40016 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		E8144C252AB0E8A3004AF89C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		E82C40882AA0D32400C0638E /* AsyncImageTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageTestView.swift; sourceTree = "<group>"; };
+		E858BA602AC5B9B6003CD121 /* exemplo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exemplo.swift; sourceTree = "<group>"; };
 		E86FB67B2AB2402D00A70B73 /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 		E88EED9F2AAF9CC300A77056 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		E88EEDA12AAF9E3500A77056 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				E8EFEE472AB7847800ECD50E /* RestartMainView.swift */,
 				E8EFEE502AB787AF00ECD50E /* OnboardingView.swift */,
 				E8EFEE522AB787C200ECD50E /* HomeView.swift */,
+				E858BA602AC5B9B6003CD121 /* exemplo.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				E82C40892AA0D32400C0638E /* AsyncImageTestView.swift in Sources */,
 				E8B2A9232AA766B300BCF5C6 /* ColorExtension.swift in Sources */,
 				E8EFEE482AB7847800ECD50E /* RestartMainView.swift in Sources */,
+				E858BA612AC5B9B6003CD121 /* exemplo.swift in Sources */,
 				E88EEDA02AAF9CC300A77056 /* CustomCircleView.swift in Sources */,
 				E89E8B372ABDF821007D6FBD /* CircleGroupView.swift in Sources */,
 				E80DEC902AAA1C2D00B40016 /* CustomButtonView.swift in Sources */,
