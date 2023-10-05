@@ -28,6 +28,7 @@
 		E8B2A91D2AA7638E00BCF5C6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2A91C2AA7638E00BCF5C6 /* CardView.swift */; };
 		E8B2A9202AA764D600BCF5C6 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2A91F2AA764D600BCF5C6 /* CustomBackgroundView.swift */; };
 		E8B2A9232AA766B300BCF5C6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2A9222AA766B300BCF5C6 /* ColorExtension.swift */; };
+		E8BAF3A62ACF1F0F00A97DD0 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF3A52ACF1F0F00A97DD0 /* AudioPlayer.swift */; };
 		E8EFEE482AB7847800ECD50E /* RestartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EFEE472AB7847800ECD50E /* RestartMainView.swift */; };
 		E8EFEE4D2AB785BC00ECD50E /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E8EFEE4B2AB785BC00ECD50E /* success.m4a */; };
 		E8EFEE4E2AB785BC00ECD50E /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8EFEE4C2AB785BC00ECD50E /* chimeup.mp3 */; };
@@ -78,6 +79,7 @@
 		E8B2A91C2AA7638E00BCF5C6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E8B2A91F2AA764D600BCF5C6 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		E8B2A9222AA766B300BCF5C6 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		E8BAF3A52ACF1F0F00A97DD0 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		E8EFEE472AB7847800ECD50E /* RestartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartMainView.swift; sourceTree = "<group>"; };
 		E8EFEE4B2AB785BC00ECD50E /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
 		E8EFEE4C2AB785BC00ECD50E /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 				E8B2A9222AA766B300BCF5C6 /* ColorExtension.swift */,
 				E80DEC8D2AAA189500B40016 /* ImageExtencion.swift */,
 				E8FCD7332AAA21A50043648A /* GradientButtonStyle.swift */,
+				E8BAF3A52ACF1F0F00A97DD0 /* AudioPlayer.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				E80DEC8C2AAA185200B40016 /* HikeMainView.swift in Sources */,
 				E8EFEE512AB787AF00ECD50E /* OnboardingView.swift in Sources */,
 				E80DEC8A2AAA17BE00B40016 /* AsyncImageView.swift in Sources */,
+				E8BAF3A62ACF1F0F00A97DD0 /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

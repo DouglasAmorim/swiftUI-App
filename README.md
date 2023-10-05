@@ -10,3 +10,6 @@ The main objective of this repository is for learning the SwiftUI framework and 
 - ScrollView
 - Animation
 - AppStorage
+- AVFoundation
+- Prefered Color Scheme set
+- Haptic feedbacks
