@@ -32,6 +32,13 @@ struct ContentView: View {
                         .foregroundColor(.white)
                         .background(Color.customGreenDark)
                 }
+                
+                NavigationLink(destination: PinchMainView()) {
+                    Text("Open Pinch App")
+                        .padding()
+                        .foregroundColor(.white)
+                        .background(Color.customGreenDark)
+                }
             }
         }
     }
