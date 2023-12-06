@@ -13,3 +13,5 @@ The main objective of this repository is for learning the SwiftUI framework and 
 - AVFoundation
 - Prefered Color Scheme set
 - Haptic feedbacks
+- On Tap Gesture
+- Long Tap Gesture
