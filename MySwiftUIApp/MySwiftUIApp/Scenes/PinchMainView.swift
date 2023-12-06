@@ -26,6 +26,7 @@ struct PinchMainView: View {
         
         NavigationView {
             ZStack {
+                Color.clear
                 // MARK: - Page Image
                 Image("magazine-front-cover")
                     .resizable()
@@ -69,6 +70,13 @@ struct PinchMainView: View {
                     isAnimating = true
                 }
             })
+            // MARK: - INFO PANEL
+            .overlay(
+                InfoPanelView(scale: imageScale, offSet: imageOffset)
+                    .padding(.horizontal)
+                    .padding(.top, 30)
+                , alignment: .top
+            )
         } //: NavigationView
         .navigationViewStyle(.stack)
     }
