@@ -77,6 +77,53 @@ struct PinchMainView: View {
                     .padding(.top, 30)
                 , alignment: .top
             )
+            // MARK: - Controls
+            .overlay(
+                Group {
+                    HStack {
+                        // Scale Down
+                        Button {
+                            withAnimation(.spring()) {
+                                if imageScale > 1 {
+                                    imageScale -= 1
+                                    
+                                    if imageScale <= 1 {
+                                        resetImageState()
+                                    }
+                                }
+                            }
+                        } label: {
+                            ControllImageView(icon: "minus.magnifyingglass")
+                        }
+                        
+                        // Reset
+                        Button {
+                            resetImageState()
+                        } label: {
+                            ControllImageView(icon: "arrow.up.left.and.down.right.magnifyingglass")
+                        }
+                        
+                        // SCALE UP
+                        Button {
+                            withAnimation(.spring()) {
+                                if imageScale < 5 {
+                                    imageScale += 1
+                                }
+                            }
+
+                        } label: {
+                            ControllImageView(icon: "plus.magnifyingglass")
+                        }
+                        
+                    } // - Controls
+                    .padding(EdgeInsets(top: 12, leading: 24, bottom: 12, trailing: 24))
+                    .background(.ultraThinMaterial)
+                    .cornerRadius(12)
+                    .opacity(isAnimating ? 1 : 0)
+                }
+                    .padding(.bottom, 30)
+                , alignment: .bottom
+            )
         } //: NavigationView
         .navigationViewStyle(.stack)
     }
