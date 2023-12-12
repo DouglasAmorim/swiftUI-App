@@ -39,6 +39,7 @@
 		E8EFEE4E2AB785BC00ECD50E /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8EFEE4C2AB785BC00ECD50E /* chimeup.mp3 */; };
 		E8EFEE512AB787AF00ECD50E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EFEE502AB787AF00ECD50E /* OnboardingView.swift */; };
 		E8EFEE532AB787C200ECD50E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EFEE522AB787C200ECD50E /* HomeView.swift */; };
+		E8FC6D5C2B28EE3B0070822E /* FruitsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FC6D5B2B28EE3B0070822E /* FruitsMainView.swift */; };
 		E8FCD7342AAA21A50043648A /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FCD7332AAA21A50043648A /* GradientButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +97,7 @@
 		E8EFEE4F2AB7873A00ECD50E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E8EFEE502AB787AF00ECD50E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		E8EFEE522AB787C200ECD50E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E8FC6D5B2B28EE3B0070822E /* FruitsMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsMainView.swift; sourceTree = "<group>"; };
 		E8FCD7332AAA21A50043648A /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -197,6 +199,7 @@
 				E8EFEE522AB787C200ECD50E /* HomeView.swift */,
 				E858BA602AC5B9B6003CD121 /* exemplo.swift */,
 				E8EE40BC2AF449FB0064DA33 /* PinchMainView.swift */,
+				E8FC6D5B2B28EE3B0070822E /* FruitsMainView.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 				E8EFEE482AB7847800ECD50E /* RestartMainView.swift in Sources */,
 				E858BA612AC5B9B6003CD121 /* exemplo.swift in Sources */,
 				E88EEDA02AAF9CC300A77056 /* CustomCircleView.swift in Sources */,
+				E8FC6D5C2B28EE3B0070822E /* FruitsMainView.swift in Sources */,
 				E8BACBEF2B27592500ACAB39 /* PageData.swift in Sources */,
 				E89E8B372ABDF821007D6FBD /* CircleGroupView.swift in Sources */,
 				E80DEC902AAA1C2D00B40016 /* CustomButtonView.swift in Sources */,
