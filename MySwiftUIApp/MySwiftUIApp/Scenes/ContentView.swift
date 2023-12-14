@@ -40,7 +40,7 @@ struct ContentView: View {
                         .background(Color.customGreenDark)
                 }
                 
-                NavigationLink(destination: PinchMainView()) {
+                NavigationLink(destination: FruitsMainView()) {
                     Text("Fruits App")
                         .padding()
                         .foregroundColor(.white)
