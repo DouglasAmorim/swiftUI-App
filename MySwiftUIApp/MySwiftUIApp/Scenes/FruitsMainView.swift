@@ -2,17 +2,27 @@
 //  FruitsMainView.swift
 //  MySwiftUIApp
 //
-//  Created by Douglas Amorim on 12/12/23.
+//  Created by Douglas Amorim on 15/12/23.
 //
 
 import SwiftUI
 
 struct FruitsMainView: View {
+    // MARK: - PROPERTIES
+    
+    // MARK: - BODY
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            ForEach(0..<5) { _ in
+                FruitCardView()
+            }
+        }//: TABVIEW
+        .tabViewStyle(PageTabViewStyle())
+        .padding(.vertical, 20)
     }
 }
 
+// MARK: PREVIEW
 struct FruitsMainView_Previews: PreviewProvider {
     static var previews: some View {
         FruitsMainView()

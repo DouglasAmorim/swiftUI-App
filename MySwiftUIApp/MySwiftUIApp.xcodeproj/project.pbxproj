@@ -33,13 +33,15 @@
 		E8BACBEF2B27592500ACAB39 /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BACBEE2B27592500ACAB39 /* PageData.swift */; };
 		E8BAF3A62ACF1F0F00A97DD0 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BAF3A52ACF1F0F00A97DD0 /* AudioPlayer.swift */; };
 		E8D4B5932B20CA600091E148 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D4B5922B20CA600091E148 /* InfoPanelView.swift */; };
+		E8DB47452B2CA1EC00662451 /* FruitsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DB47442B2CA1EC00662451 /* FruitsMainView.swift */; };
+		E8DB47472B2CA64F00662451 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DB47462B2CA64F00662451 /* StartButtonView.swift */; };
 		E8EE40BD2AF449FB0064DA33 /* PinchMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EE40BC2AF449FB0064DA33 /* PinchMainView.swift */; };
 		E8EFEE482AB7847800ECD50E /* RestartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EFEE472AB7847800ECD50E /* RestartMainView.swift */; };
 		E8EFEE4D2AB785BC00ECD50E /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E8EFEE4B2AB785BC00ECD50E /* success.m4a */; };
 		E8EFEE4E2AB785BC00ECD50E /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E8EFEE4C2AB785BC00ECD50E /* chimeup.mp3 */; };
 		E8EFEE512AB787AF00ECD50E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EFEE502AB787AF00ECD50E /* OnboardingView.swift */; };
 		E8EFEE532AB787C200ECD50E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EFEE522AB787C200ECD50E /* HomeView.swift */; };
-		E8FC6D5C2B28EE3B0070822E /* FruitsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FC6D5B2B28EE3B0070822E /* FruitsMainView.swift */; };
+		E8FC6D5C2B28EE3B0070822E /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FC6D5B2B28EE3B0070822E /* FruitCardView.swift */; };
 		E8FCD7342AAA21A50043648A /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8FCD7332AAA21A50043648A /* GradientButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +92,8 @@
 		E8BACBEE2B27592500ACAB39 /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
 		E8BAF3A52ACF1F0F00A97DD0 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 		E8D4B5922B20CA600091E148 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		E8DB47442B2CA1EC00662451 /* FruitsMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsMainView.swift; sourceTree = "<group>"; };
+		E8DB47462B2CA64F00662451 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		E8EE40BC2AF449FB0064DA33 /* PinchMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchMainView.swift; sourceTree = "<group>"; };
 		E8EFEE472AB7847800ECD50E /* RestartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartMainView.swift; sourceTree = "<group>"; };
 		E8EFEE4B2AB785BC00ECD50E /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
@@ -97,7 +101,7 @@
 		E8EFEE4F2AB7873A00ECD50E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E8EFEE502AB787AF00ECD50E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		E8EFEE522AB787C200ECD50E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		E8FC6D5B2B28EE3B0070822E /* FruitsMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsMainView.swift; sourceTree = "<group>"; };
+		E8FC6D5B2B28EE3B0070822E /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		E8FCD7332AAA21A50043648A /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -199,7 +203,8 @@
 				E8EFEE522AB787C200ECD50E /* HomeView.swift */,
 				E858BA602AC5B9B6003CD121 /* exemplo.swift */,
 				E8EE40BC2AF449FB0064DA33 /* PinchMainView.swift */,
-				E8FC6D5B2B28EE3B0070822E /* FruitsMainView.swift */,
+				E8FC6D5B2B28EE3B0070822E /* FruitCardView.swift */,
+				E8DB47442B2CA1EC00662451 /* FruitsMainView.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -217,6 +222,7 @@
 				E89E8B362ABDF821007D6FBD /* CircleGroupView.swift */,
 				E8D4B5922B20CA600091E148 /* InfoPanelView.swift */,
 				E87FB7422B22294500755FBF /* ControllImageView.swift */,
+				E8DB47462B2CA64F00662451 /* StartButtonView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -398,6 +404,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8DB47452B2CA1EC00662451 /* FruitsMainView.swift in Sources */,
 				E80DEC8E2AAA189500B40016 /* ImageExtencion.swift in Sources */,
 				E8D4B5932B20CA600091E148 /* InfoPanelView.swift in Sources */,
 				E8B2A9202AA764D600BCF5C6 /* CustomBackgroundView.swift in Sources */,
@@ -408,7 +415,7 @@
 				E8EFEE482AB7847800ECD50E /* RestartMainView.swift in Sources */,
 				E858BA612AC5B9B6003CD121 /* exemplo.swift in Sources */,
 				E88EEDA02AAF9CC300A77056 /* CustomCircleView.swift in Sources */,
-				E8FC6D5C2B28EE3B0070822E /* FruitsMainView.swift in Sources */,
+				E8FC6D5C2B28EE3B0070822E /* FruitCardView.swift in Sources */,
 				E8BACBEF2B27592500ACAB39 /* PageData.swift in Sources */,
 				E89E8B372ABDF821007D6FBD /* CircleGroupView.swift in Sources */,
 				E80DEC902AAA1C2D00B40016 /* CustomButtonView.swift in Sources */,
@@ -417,6 +424,7 @@
 				E8144C262AB0E8A3004AF89C /* SettingsView.swift in Sources */,
 				E8B2A91D2AA7638E00BCF5C6 /* CardView.swift in Sources */,
 				E8BACBED2B2758C100ACAB39 /* PageModel.swift in Sources */,
+				E8DB47472B2CA64F00662451 /* StartButtonView.swift in Sources */,
 				E8FCD7342AAA21A50043648A /* GradientButtonStyle.swift in Sources */,
 				E8011E282A93A67600DD9B5F /* MySwiftUIAppApp.swift in Sources */,
 				E88EEDA22AAF9E3500A77056 /* MotionAnimationView.swift in Sources */,
