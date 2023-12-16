@@ -26,6 +26,8 @@
 		E88EEDA02AAF9CC300A77056 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88EED9F2AAF9CC300A77056 /* CustomCircleView.swift */; };
 		E88EEDA22AAF9E3500A77056 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88EEDA12AAF9E3500A77056 /* MotionAnimationView.swift */; };
 		E89E8B372ABDF821007D6FBD /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89E8B362ABDF821007D6FBD /* CircleGroupView.swift */; };
+		E89F32BE2B2DF0C800B7ECA2 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89F32BD2B2DF0C800B7ECA2 /* FruitModel.swift */; };
+		E89F32C02B2DF19000B7ECA2 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89F32BF2B2DF19000B7ECA2 /* FruitData.swift */; };
 		E8B2A91D2AA7638E00BCF5C6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2A91C2AA7638E00BCF5C6 /* CardView.swift */; };
 		E8B2A9202AA764D600BCF5C6 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2A91F2AA764D600BCF5C6 /* CustomBackgroundView.swift */; };
 		E8B2A9232AA766B300BCF5C6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B2A9222AA766B300BCF5C6 /* ColorExtension.swift */; };
@@ -85,6 +87,8 @@
 		E88EED9F2AAF9CC300A77056 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		E88EEDA12AAF9E3500A77056 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		E89E8B362ABDF821007D6FBD /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
+		E89F32BD2B2DF0C800B7ECA2 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
+		E89F32BF2B2DF19000B7ECA2 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 		E8B2A91C2AA7638E00BCF5C6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		E8B2A91F2AA764D600BCF5C6 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		E8B2A9222AA766B300BCF5C6 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
@@ -242,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				E8BACBEE2B27592500ACAB39 /* PageData.swift */,
+				E89F32BF2B2DF19000B7ECA2 /* FruitData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				E8BACBEC2B2758C100ACAB39 /* PageModel.swift */,
+				E89F32BD2B2DF0C800B7ECA2 /* FruitModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -416,6 +422,7 @@
 				E858BA612AC5B9B6003CD121 /* exemplo.swift in Sources */,
 				E88EEDA02AAF9CC300A77056 /* CustomCircleView.swift in Sources */,
 				E8FC6D5C2B28EE3B0070822E /* FruitCardView.swift in Sources */,
+				E89F32C02B2DF19000B7ECA2 /* FruitData.swift in Sources */,
 				E8BACBEF2B27592500ACAB39 /* PageData.swift in Sources */,
 				E89E8B372ABDF821007D6FBD /* CircleGroupView.swift in Sources */,
 				E80DEC902AAA1C2D00B40016 /* CustomButtonView.swift in Sources */,
@@ -426,6 +433,7 @@
 				E8BACBED2B2758C100ACAB39 /* PageModel.swift in Sources */,
 				E8DB47472B2CA64F00662451 /* StartButtonView.swift in Sources */,
 				E8FCD7342AAA21A50043648A /* GradientButtonStyle.swift in Sources */,
+				E89F32BE2B2DF0C800B7ECA2 /* FruitModel.swift in Sources */,
 				E8011E282A93A67600DD9B5F /* MySwiftUIAppApp.swift in Sources */,
 				E88EEDA22AAF9E3500A77056 /* MotionAnimationView.swift in Sources */,
 				E80DEC8C2AAA185200B40016 /* HikeMainView.swift in Sources */,
