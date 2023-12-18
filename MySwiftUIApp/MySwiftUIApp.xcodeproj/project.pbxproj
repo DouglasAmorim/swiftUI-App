@@ -20,6 +20,7 @@
 		E80DEC902AAA1C2D00B40016 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DEC8F2AAA1C2D00B40016 /* CustomButtonView.swift */; };
 		E8144C262AB0E8A3004AF89C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8144C252AB0E8A3004AF89C /* SettingsView.swift */; };
 		E82C40892AA0D32400C0638E /* AsyncImageTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C40882AA0D32400C0638E /* AsyncImageTestView.swift */; };
+		E851720D2B30FDD50099DCB5 /* FruitsOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E851720C2B30FDD50099DCB5 /* FruitsOnboardingView.swift */; };
 		E858BA612AC5B9B6003CD121 /* exemplo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E858BA602AC5B9B6003CD121 /* exemplo.swift */; };
 		E86FB67C2AB2402D00A70B73 /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86FB67B2AB2402D00A70B73 /* CustomListRowView.swift */; };
 		E87FB7432B22294500755FBF /* ControllImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87FB7422B22294500755FBF /* ControllImageView.swift */; };
@@ -81,6 +82,7 @@
 		E80DEC8F2AAA1C2D00B40016 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		E8144C252AB0E8A3004AF89C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		E82C40882AA0D32400C0638E /* AsyncImageTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageTestView.swift; sourceTree = "<group>"; };
+		E851720C2B30FDD50099DCB5 /* FruitsOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsOnboardingView.swift; sourceTree = "<group>"; };
 		E858BA602AC5B9B6003CD121 /* exemplo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exemplo.swift; sourceTree = "<group>"; };
 		E86FB67B2AB2402D00A70B73 /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 		E87FB7422B22294500755FBF /* ControllImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllImageView.swift; sourceTree = "<group>"; };
@@ -157,15 +159,15 @@
 		E8011E262A93A67600DD9B5F /* MySwiftUIApp */ = {
 			isa = PBXGroup;
 			children = (
-				E8EE40BF2AF44C3F0064DA33 /* Model */,
+				E8B2A91E2AA764AD00BCF5C6 /* Component */,
 				E8EE40BE2AF44C330064DA33 /* Data */,
 				E8EFEE4F2AB7873A00ECD50E /* Info.plist */,
-				E8EFEE492AB785A100ECD50E /* Resources */,
-				E80DEC882AAA17A700B40016 /* Scenes */,
+				E8EE40BF2AF44C3F0064DA33 /* Model */,
 				E8011E272A93A67600DD9B5F /* MySwiftUIAppApp.swift */,
 				E8011E2D2A93A67600DD9B5F /* Preview Content */,
+				E8EFEE492AB785A100ECD50E /* Resources */,
+				E80DEC882AAA17A700B40016 /* Views */,
 				E8B2A9212AA766A200BCF5C6 /* Utility */,
-				E8B2A91E2AA764AD00BCF5C6 /* Component */,
 			);
 			path = MySwiftUIApp;
 			sourceTree = "<group>";
@@ -195,7 +197,7 @@
 			path = MySwiftUIAppUITests;
 			sourceTree = "<group>";
 		};
-		E80DEC882AAA17A700B40016 /* Scenes */ = {
+		E80DEC882AAA17A700B40016 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				E8011E292A93A67600DD9B5F /* ContentView.swift */,
@@ -209,8 +211,9 @@
 				E8EE40BC2AF449FB0064DA33 /* PinchMainView.swift */,
 				E8FC6D5B2B28EE3B0070822E /* FruitCardView.swift */,
 				E8DB47442B2CA1EC00662451 /* FruitsMainView.swift */,
+				E851720C2B30FDD50099DCB5 /* FruitsOnboardingView.swift */,
 			);
-			path = Scenes;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		E8B2A91E2AA764AD00BCF5C6 /* Component */ = {
@@ -426,6 +429,7 @@
 				E8BACBEF2B27592500ACAB39 /* PageData.swift in Sources */,
 				E89E8B372ABDF821007D6FBD /* CircleGroupView.swift in Sources */,
 				E80DEC902AAA1C2D00B40016 /* CustomButtonView.swift in Sources */,
+				E851720D2B30FDD50099DCB5 /* FruitsOnboardingView.swift in Sources */,
 				E86FB67C2AB2402D00A70B73 /* CustomListRowView.swift in Sources */,
 				E8EFEE532AB787C200ECD50E /* HomeView.swift in Sources */,
 				E8144C262AB0E8A3004AF89C /* SettingsView.swift in Sources */,

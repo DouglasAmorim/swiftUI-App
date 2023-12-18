@@ -9,23 +9,15 @@ import SwiftUI
 
 struct FruitsMainView: View {
     // MARK: - PROPERTIES
-    var fruits: [Fruit] = fruitsData
-    
     // MARK: - BODY
     var body: some View {
-        TabView {
-            ForEach(0..<fruits.count) { fruitIndex in
-                FruitCardView(fruit: fruitsData[fruitIndex])
-            }
-        }//: TABVIEW
-        .tabViewStyle(PageTabViewStyle())
-        .padding(.vertical, 20)
+        Text("BANANA")
     }
 }
 
 // MARK: PREVIEW
 struct FruitsMainView_Previews: PreviewProvider {
     static var previews: some View {
-        FruitsMainView(fruits: fruitsData)
+        FruitsMainView()
     }
 }
