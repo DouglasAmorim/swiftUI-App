@@ -14,6 +14,7 @@
 		E8011E392A93A67700DD9B5F /* MySwiftUIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8011E382A93A67700DD9B5F /* MySwiftUIAppTests.swift */; };
 		E8011E432A93A67700DD9B5F /* MySwiftUIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8011E422A93A67700DD9B5F /* MySwiftUIAppUITests.swift */; };
 		E8011E452A93A67700DD9B5F /* MySwiftUIAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8011E442A93A67700DD9B5F /* MySwiftUIAppUITestsLaunchTests.swift */; };
+		E80551C42B389F910082797A /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80551C32B389F910082797A /* FruitRowView.swift */; };
 		E80DEC8A2AAA17BE00B40016 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DEC892AAA17BE00B40016 /* AsyncImageView.swift */; };
 		E80DEC8C2AAA185200B40016 /* HikeMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DEC8B2AAA185200B40016 /* HikeMainView.swift */; };
 		E80DEC8E2AAA189500B40016 /* ImageExtencion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DEC8D2AAA189500B40016 /* ImageExtencion.swift */; };
@@ -76,6 +77,7 @@
 		E8011E3E2A93A67700DD9B5F /* MySwiftUIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySwiftUIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8011E422A93A67700DD9B5F /* MySwiftUIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIAppUITests.swift; sourceTree = "<group>"; };
 		E8011E442A93A67700DD9B5F /* MySwiftUIAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftUIAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E80551C32B389F910082797A /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		E80DEC892AAA17BE00B40016 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
 		E80DEC8B2AAA185200B40016 /* HikeMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeMainView.swift; sourceTree = "<group>"; };
 		E80DEC8D2AAA189500B40016 /* ImageExtencion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtencion.swift; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 				E8FC6D5B2B28EE3B0070822E /* FruitCardView.swift */,
 				E8DB47442B2CA1EC00662451 /* FruitsMainView.swift */,
 				E851720C2B30FDD50099DCB5 /* FruitsOnboardingView.swift */,
+				E80551C32B389F910082797A /* FruitRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -436,6 +439,7 @@
 				E8B2A91D2AA7638E00BCF5C6 /* CardView.swift in Sources */,
 				E8BACBED2B2758C100ACAB39 /* PageModel.swift in Sources */,
 				E8DB47472B2CA64F00662451 /* StartButtonView.swift in Sources */,
+				E80551C42B389F910082797A /* FruitRowView.swift in Sources */,
 				E8FCD7342AAA21A50043648A /* GradientButtonStyle.swift in Sources */,
 				E89F32BE2B2DF0C800B7ECA2 /* FruitModel.swift in Sources */,
 				E8011E282A93A67600DD9B5F /* MySwiftUIAppApp.swift in Sources */,
