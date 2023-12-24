@@ -20,6 +20,7 @@ struct FruitsMainView: View {
                         .padding(.vertical, 4)
                 }
             }
+            .navigationTitle("Fruits")
         }//: NAVIGATIONVIEW
     }
 }
