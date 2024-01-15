@@ -15,6 +15,8 @@ The main objective of this repository is for learning the SwiftUI framework and 
 - Haptic feedbacks
 - On Tap Gesture
 - Long Tap Gesture
+- GroupBox
+- DisclosureGroup
 
 ### SwiftUI Lifecycle
 Separeted by: Apps, Scenes and Views
